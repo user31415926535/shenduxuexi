@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c758ca3-81a4-4ba1-b8b8-8db5bf39bca9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MOOC\随堂跟练.py</StartupFile>
+    <StartupFile>MOOC\数据归一化.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -42,7 +42,7 @@
     <Compile Include="MOOC\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\随堂跟练.py">
+    <Compile Include="MOOC\数据归一化.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="深度学习.py" />
