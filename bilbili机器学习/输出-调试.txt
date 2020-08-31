@@ -1,0 +1,2 @@
+﻿线程 'MainThread' (0x1) 已退出，返回值为 0 (0x0)。
+程序“python.exe”已退出，返回值为 -1 (0xffffffff)。
