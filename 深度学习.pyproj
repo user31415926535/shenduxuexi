@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c758ca3-81a4-4ba1-b8b8-8db5bf39bca9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MOOC\数据归一化.py</StartupFile>
+    <StartupFile>MOOC\kjinlin\the main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,22 +27,25 @@
     <Compile Include="bilbili机器学习\x乘以x.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\kNN.py">
+    <Compile Include="MOOC\kjinlin\kNN.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\matris.py">
+    <Compile Include="MOOC\kjinlin\matris.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\model_selection.py">
+    <Compile Include="MOOC\kjinlin\model_selection.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\the main.py">
+    <Compile Include="MOOC\kjinlin\processing.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\__init__.py">
+    <Compile Include="MOOC\kjinlin\the main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MOOC\数据归一化.py">
+    <Compile Include="MOOC\kjinlin\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\kjinlin\数据归一化.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="深度学习.py" />
@@ -50,6 +53,7 @@
   <ItemGroup>
     <Folder Include="bilbili机器学习\" />
     <Folder Include="MOOC\" />
+    <Folder Include="MOOC\kjinlin\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

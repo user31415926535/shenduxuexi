@@ -16,7 +16,7 @@ plt.show()
 x2=np.random.randint(0,100,(50,10))
 x2=np.array(x,dtype=float)
 for t in range(0,10):
-    x2[:,t]=(x[:,t]-np.mean(x2[:,t]))/np.std(x[:,i])
+    x2[:,t]=(x[:,t]-np.mean(x2[:,t]))/np.std(x[:,t])
     print("x2[50,",t,"]=")
     print(x[:,i])
 plt.scatter(x2[:,0],x2[:,1],color="blue")

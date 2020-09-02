@@ -4,8 +4,8 @@ from sklearn import datasets
 from sklearn.metrics import accuracy_score
 import numpy as np
 import math 
-from MOOC.kNN import KNN
-from MOOC.model_selection import train_list
+from MOOC.kjinlin.kNN import KNN
+from MOOC.kjinlin.model_selection import train_list
 #from MOOC.matris import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 if __name__=="__main__":
