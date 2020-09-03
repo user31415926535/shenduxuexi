@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c758ca3-81a4-4ba1-b8b8-8db5bf39bca9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MOOC\kjinlin\the main.py</StartupFile>
+    <StartupFile>MOOC\xianxinghuigui\the main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -48,12 +48,25 @@
     <Compile Include="MOOC\kjinlin\数据归一化.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MOOC\xianxinghuigui\5.3简单线性回归的实现.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\xianxinghuigui\the main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\xianxinghuigui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\xianxinghuigui\simplelinearregression.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="深度学习.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bilbili机器学习\" />
     <Folder Include="MOOC\" />
     <Folder Include="MOOC\kjinlin\" />
+    <Folder Include="MOOC\xianxinghuigui\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
