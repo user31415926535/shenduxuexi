@@ -1,5 +1,5 @@
 import numpy as np
-
+import math
 class simplelinearregression1(object):
     def __init__(self):#初始化模型
         self.a_=None
@@ -11,11 +11,10 @@ class simplelinearregression1(object):
         assert len(x_train)==len(y_train),"训练集x_train必须和y_train长度一致"
         x_mean=np.mean(x_train)
         y_mean=np.mean(y_train)
-        num=0.0
-        d=0.0
-        for x,y in zip(x_train,y_train):
-            num+=(x-x_mean)*(y-y_mean)
-            d+=(x-x_mean)**2
+        s1=(x_train-x_mean)
+        s2=(y_train-y_mean)           
+        num=np.dot(s1,s2)
+        d=np.dot(s1,s1)
 
         self.a_=num/d
         self.b_=y_mean-self.a_*x_mean

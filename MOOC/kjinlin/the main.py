@@ -13,7 +13,7 @@ if __name__=="__main__":
     print(digits.keys())
     X=digits.data
     y=digits.target#从sklearn调用数据并把数据和结果分别传给X和y
-    X_train,X_test,y_train,y_test=train_list(X,y)
+    d_test=train_list(X,y)
 
     #KNNclf=KNN(k=6)
     #KNNclf.fit(X_train,y_train)

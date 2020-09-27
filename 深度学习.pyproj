@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c758ca3-81a4-4ba1-b8b8-8db5bf39bca9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MOOC\xianxinghuigui\the main.py</StartupFile>
+    <StartupFile>zijilianxi\lianxi3\jueceshu.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="bilbili机器学习\x乘以x.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zijilianxi\lianxi1\train.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zijilianxi\lianxi1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zijilianxi\lianxi1\另一个sdxx.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MOOC\kjinlin\kNN.py">
@@ -48,9 +57,20 @@
     <Compile Include="MOOC\kjinlin\数据归一化.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MOOC\tiduxiajiang\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\tiduxiajiang\梯度下降.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MOOC\xianxinghuigui\5.3简单线性回归的实现.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MOOC\xianxinghuigui\duiqishuju.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MOOC\xianxinghuigui\matris.py" />
+    <Compile Include="MOOC\xianxinghuigui\model_selection.py" />
     <Compile Include="MOOC\xianxinghuigui\the main.py">
       <SubType>Code</SubType>
     </Compile>
@@ -60,13 +80,28 @@
     <Compile Include="MOOC\xianxinghuigui\simplelinearregression.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MOOC\xianxinghuigui\房价比较.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zijilianxi\lianxi2\kjinlin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="zijilianxi\lianxi3\jueceshu.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="深度学习.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bilbili机器学习\" />
     <Folder Include="MOOC\" />
     <Folder Include="MOOC\kjinlin\" />
+    <Folder Include="MOOC\tiduxiajiang\" />
     <Folder Include="MOOC\xianxinghuigui\" />
+    <Folder Include="tuxiangfenge\" />
+    <Folder Include="zijilianxi\" />
+    <Folder Include="zijilianxi\lianxi1\" />
+    <Folder Include="zijilianxi\lianxi2\" />
+    <Folder Include="zijilianxi\lianxi3\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

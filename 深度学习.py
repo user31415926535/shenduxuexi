@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+import torch
 #一.创建张量
 
 #value: 定义张量的n维数组值，可选
