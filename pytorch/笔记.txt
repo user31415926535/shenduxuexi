@@ -1,0 +1,48 @@
+
+torch.cat()
+实现tensor的拼接
+    def make_features(x):
+        """Builds features i.e. a matrix with columns [x, x^2, x^3, x^4]."""
+        x = x.unsqueeze(1)
+        return torch.cat([x ** i for i in range(1, POLY_DEGREE+1)], 1)
+
+
+
+Variable(变量)：
+grad--求导
+Variable--定义变量
+#在使用Variable的时候需要从torch.autograd中导入。
+# 定义三个Variable变量
+x = Variable(torch.Tensor([1, 2, 3]), requires_grad=True)
+w = Variable(torch.Tensor([2, 3, 4]), requires_grad=True)
+b = Variable(torch.Tensor([3, 4, 5]), requires_grad=True)
+ 
+# 构建计算图，公式为：y = w * x^2 + b
+y = w * x * x + b
+ 
+# 自动求导，计算梯度
+y.backward(torch.Tensor([1, 1, 1]))
+ 
+print(x.grad)
+print(w.grad)
+print(b.grad)
+#对x, w, b分别求偏导为：x.grad = 2wx，w.grad=x^2，b.grad=1。
+
+
+定义卷积层nn.Covnd2d()相关参数：
+in_channels：	输入信号的通道数.
+out_channels：	卷积后输出结果的通道数.
+kernel_size：	卷积核的形状. 例如kernel_size=(3, 2)表示3X2的卷积核，如果宽和高相同，可以只用一个数字表示
+stride：	卷积每次移动的步长, 默认为1.
+padding：	 处理边界时填充0的数量, 默认为0(不填充).
+dilation：	采样间隔数量, 默认为1, 无间隔采样.
+groups：	输入与输出通道的分组数量. 当不为1时, 默认为1(全连接).
+bias：	为 True 时, 添加偏置.
+
+定义池化层：nn.MaxPool2d()相关参数：
+kernel_size：	最大池化操作时的窗口大小
+stride：	最大池化操作时窗口移动的步长, 默认值是 kernel_size
+padding： 	输入的每条边隐式补0的数量
+dilation： 	 用于控制窗口中元素的步长的参数
+return_indices：	如果等于 True, 在返回 max pooling 结果的同时返回最大值的索引 这在之后的 Unpooling 时很有用
+ceil_mode：	如果等于 True, 在计算输出大小时,将采用向上取整来代替默认的向下取整的方式

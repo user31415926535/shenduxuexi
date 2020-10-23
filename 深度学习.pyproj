@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7c758ca3-81a4-4ba1-b8b8-8db5bf39bca9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>zijilianxi\lianxi3\jueceshu.py</StartupFile>
+    <StartupFile>pytorch\pytorch学习\pytorch搭建一维线性回归模型.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,21 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="bilbili机器学习\x乘以x.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pytorch\mnist手写文字.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pytorch\pytorch学习\pytorch搭建一维线性回归模型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pytorch\pytorch学习\pytorch搭建多项式模型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pytorch\rest-18\rest-18搭建.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pytorch\rest-18\train.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="zijilianxi\lianxi1\train.py">
@@ -90,6 +105,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="深度学习.py" />
+    <Compile Include="pytorch\识别彩色图片.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bilbili机器学习\" />
@@ -97,11 +115,17 @@
     <Folder Include="MOOC\kjinlin\" />
     <Folder Include="MOOC\tiduxiajiang\" />
     <Folder Include="MOOC\xianxinghuigui\" />
-    <Folder Include="tuxiangfenge\" />
+    <Folder Include="pytorch\" />
+    <Folder Include="pytorch\data\" />
+    <Folder Include="pytorch\pytorch学习\" />
+    <Folder Include="pytorch\rest-18\" />
     <Folder Include="zijilianxi\" />
     <Folder Include="zijilianxi\lianxi1\" />
     <Folder Include="zijilianxi\lianxi2\" />
     <Folder Include="zijilianxi\lianxi3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pytorch\笔记.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
